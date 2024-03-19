@@ -1,0 +1,1 @@
+/* URL BASE: https://valorant-api.com/v1/maps */

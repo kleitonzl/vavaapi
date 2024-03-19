@@ -1,0 +1,51 @@
+body{
+    background-color: #050C35;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    position:absolute;
+    top: 5%;
+    transform: translateX(-50%);
+    width: 200px; /* Largura da imagem (igual à largura do quadrado) */
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-Maps{
+    position: absolute;
+    top: 25%;
+    transform: translateX(-50%);
+    width: 200px; /* Largura da imagem (igual à largura do quadrado) */
+    height: auto;
+  
+  }
+
+.quadrado {
+    
+    width: 1200px; /* Largura do quadrado */
+    height: 250px; /* Altura do quadrado */
+    background-color:#050C35; /* Cor de fundo do quadrado */
+    border: solid 2px;
+    border-color: brown;
+    overflow: hidden; /* Para ocultar a parte da imagem que ultrapassar o quadrado */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* /* margin-left: 340px; */
+    margin-top: 80px;
+  }
+
+  .header{
+    justify-content: center;
+    display: flex;
+  }
+  
+  
+  

@@ -1,0 +1,128 @@
+body {
+    background-color:#050C35;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #050C35;
+    padding: 10px 20px;
+}
+
+.top-bar img {
+    display: block;
+    margin: 0 auto;
+    height: 45px;
+}
+
+main {
+    padding: 10px;
+}
+
+header {
+    background-color: grey;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-item {
+    padding: 10px 20px;
+    background-color: #2A2475;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header-item a{
+   text-decoration: none; 
+   color: aliceblue;
+}
+
+.header-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.h1-principal {
+    color: aliceblue;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content:flex-end;
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content:flex-start;
+}
+
+.texto-sentinela{
+    width: calc(100% - 300px); /* Ajuste a largura */
+    height: 250px;;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #2A2475;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.texto-duelista {
+    width: calc(100% - 300px); /* Ajuste a largura */
+    height: 250px;;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #2A2475;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+   
+}
+.texto-iniciador {
+    width: calc(100% - 300px); /* Ajuste a largura */
+    height: 250px;;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #2A2475;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px; 
+}
+
+.texto-controladores {
+    width: calc(100% - 300px); /* Ajuste a largura */
+    height: 250px;;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #2A2475;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+.gekko-img,
+.omen-img,
+.killjoy-img,
+.raze-img {
+    width: calc(11% - 20px); /* Ajuste a largura */
+    /* margin-top: 15px; */
+    
+}
+.gekko-img img,
+.omen-img img,
+.killjoy-img img,
+.raze-img img {
+    width: 100%;
+    height: auto;
+    /* border-radius: 150px; */
+}
